@@ -1,0 +1,12 @@
+[package]
+name = "blockchain-nodes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = { version = "2.0", features = ["rustls", "http"] }
+diem-sdk = { git = "https://github.com/diem/diem" }
+parity-scale-codec = { version = "3.0" }
+bellman = { version = "0.13" }
+bls12_381 = "0.7"
+tokio = { version = "1.0", features = ["full"] }
