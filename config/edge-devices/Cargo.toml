@@ -1,0 +1,12 @@
+[package]
+name = "edge-devices"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+sysinfo = "0.27"
+sgx-isa = { git = "https://github.com/mesalock-linux/sgx-isa" }
+hmac = "0.12"
+sha2 = "0.10"
+prost = "0.11"
