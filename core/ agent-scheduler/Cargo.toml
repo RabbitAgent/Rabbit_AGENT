@@ -1,0 +1,11 @@
+[package]
+name = "agent-scheduler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"]]
+futures = "0.3"
+z3-sys = { version = "0.8", features = ["static-link-z3"] }
+serde = { version = "1.0", features = ["derive"] }
+ethers = { version = "2.0", features = ["rustls", "http"] }
