@@ -1,0 +1,14 @@
+[package]
+name = "zkp-verifier"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bellman = { version = "0.13", features = ["bls12_381"] }
+pairing = { version = "0.24", features = ["bls12_381"] }
+rand = "0.8"
+rayon = "1.5"
+thiserror = "1.0"
+ff = "0.13"
+group = "0.13"
+bls12_381 = "0.7"
