@@ -1,4 +1,3 @@
-// local-inference/src/secure_engine.rs
 use tch::{CModule, Device, IValue, Kind};
 use sgx_urts::SgxEnclave;
 use secrecy::{Secret, ExposeSecret};
